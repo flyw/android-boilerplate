@@ -8,7 +8,7 @@ class ModuleInitializer: Initializer<ModuleInitializer.Dependency> {
     private val TAG = javaClass.simpleName
 
     override fun create(context: Context): Dependency {
-        Log.d(TAG, javaClass.name + "#create()")
+        println(javaClass.name + "#create()")
         return Dependency()
     }
 
