@@ -1,6 +1,7 @@
 apply plugin: (rootProject.name != project.name) ? 'com.android.library' : 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
 
 android {
     compileSdkVersion 29
