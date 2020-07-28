@@ -1,2 +1,5 @@
 include ':boilerplate'
 rootProject.name = "boilerplate"
+
+include ':utils'
+project (':utils').projectDir = new File(settingsDir,'../utils/utils')
