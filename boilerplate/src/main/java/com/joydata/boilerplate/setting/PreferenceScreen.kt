@@ -22,7 +22,7 @@ class PreferenceScreen (private val preferenceScreen: PreferenceScreen) : Prefer
         val example = Preference(this.context)
         example.key = "boilerplate-example"
         example.title = "客户端编号"
-        example.summary = SharedPreferences().getExample()
+        example.summary = SharedPreferences.getExample()
         return example
     }
 

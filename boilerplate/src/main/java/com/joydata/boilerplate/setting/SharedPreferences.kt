@@ -1,15 +1,12 @@
 package com.joydata.boilerplate.setting
 
-import android.content.SharedPreferences
+import android.content.SharedPreferences as DefaultSharedPreferences
 import androidx.preference.PreferenceManager
 import com.joydata.utils.AppCtx
-import java.lang.StringBuilder
-import java.util.*
-import kotlin.collections.HashSet
 
-class SharedPreferences {
+object SharedPreferences {
 
-    var sharedPrefs: SharedPreferences = PreferenceManager.getDefaultSharedPreferences(AppCtx.get())
+    var sharedPrefs: DefaultSharedPreferences = PreferenceManager.getDefaultSharedPreferences(AppCtx.get())
 
     fun setExample(uuid: String) {
         sharedPrefs.edit().putString("boilerplate-example", uuid).apply()
