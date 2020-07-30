@@ -1,5 +1,6 @@
 ### 模版安装
 1. Replate in Place (Cmd + Shift + R)
+   1. ***boilerplate*** => [NEW_PROJECT_NAME]
    1. Select "Directory"
    1. Replace All
    
