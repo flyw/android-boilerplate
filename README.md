@@ -20,6 +20,8 @@
 1. Assets Rename module path
    1. Assets 下面子目录名字
    
+1. Git Push
+
 1. 修改 .idea/workspace.xml 文件内容，
    1. 删除所有 < change />
    ```
