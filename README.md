@@ -1,5 +1,6 @@
 ### 模版安装
 1. Replate in Place (Cmd + Shift + R)
+   1. ***boilerplate*** => [NEW_PROJECT_NAME]
    1. Select "Directory"
    1. Replace All
    
@@ -19,6 +20,8 @@
 1. Assets Rename module path
    1. Assets 下面子目录名字
    
+1. Git Push
+
 1. 修改 .idea/workspace.xml 文件内容，
    1. 删除所有 < change />
    ```
