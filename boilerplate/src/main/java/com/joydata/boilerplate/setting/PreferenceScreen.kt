@@ -2,6 +2,7 @@ package com.joydata.boilerplate.setting
 
 import android.content.Context
 import android.text.InputType
+import androidx.fragment.app.Fragment
 import androidx.preference.*
 import androidx.preference.PreferenceScreen
 import com.joydata.utils.setting.PreferenceScreenable
@@ -10,7 +11,7 @@ class PreferenceScreen (private val preferenceScreen: PreferenceScreen) : Prefer
     private val TAG: String = javaClass.simpleName
 
     lateinit var context: Context
-    override fun onCreatePreferences(context: Context) {
+    override fun onCreatePreferences(context: Context, fragment: Fragment) {
 //        this.context = context
 //        val category = PreferenceCategory(context)
 //        category.title = "组标题"
