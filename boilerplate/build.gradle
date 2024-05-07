@@ -6,12 +6,12 @@ apply plugin: (rootProject.name != project.name) ? 'com.android.library' : 'com.
 android {
     namespace 'com.digimeta.boilerplate'
     if (rootProject.name == project.name) namespace "com.digimeta.boilerplate"
-    compileSdk 33
+    compileSdk 34
 
     defaultConfig {
         if (rootProject.name == project.name) applicationId "com.digimeta.boilerplate"
         minSdk 25
-        targetSdk 33
+        targetSdk 34
         versionCode 1
         versionName "1.0"
 
