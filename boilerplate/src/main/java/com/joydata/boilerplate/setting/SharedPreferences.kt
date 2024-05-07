@@ -1,8 +1,8 @@
-package com.joydata.boilerplate.setting
+package com.digimeta.boilerplate.setting
 
 import android.content.SharedPreferences as DefaultSharedPreferences
 import androidx.preference.PreferenceManager
-import com.joydata.utils.AppCtx
+import com.digimeta.utils.AppCtx
 
 object SharedPreferences {
 

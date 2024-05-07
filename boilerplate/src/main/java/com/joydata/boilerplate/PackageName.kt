@@ -1,4 +1,4 @@
-package com.joydata.boilerplate
+package com.digimeta.boilerplate
 
 object PackageName {
     fun get():String {

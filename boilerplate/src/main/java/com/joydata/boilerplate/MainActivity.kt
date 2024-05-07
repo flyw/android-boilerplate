@@ -1,8 +1,8 @@
-package com.joydata.boilerplate
+package com.digimeta.boilerplate
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.joydata.utils.ui.SettingButton
+import com.digimeta.utils.ui.SettingButton
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

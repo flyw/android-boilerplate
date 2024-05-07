@@ -1,4 +1,4 @@
-package com.joydata.boilerplate
+package com.digimeta.boilerplate
 
 import android.content.Context
 import android.util.Log
@@ -13,7 +13,7 @@ class ModuleInitializer: Initializer<ModuleInitializer.Dependency> {
     }
 
     override fun dependencies(): List<Class<out Initializer<*>>> {
-        return listOf(com.joydata.utils.ModuleInitializer::class.java)
+        return listOf(com.digimeta.utils.ModuleInitializer::class.java)
     }
 
     class Dependency {

@@ -1,11 +1,11 @@
-package com.joydata.boilerplate.setting
+package com.digimeta.boilerplate.setting
 
 import android.content.Context
 import android.text.InputType
 import androidx.fragment.app.Fragment
 import androidx.preference.*
 import androidx.preference.PreferenceScreen
-import com.joydata.utils.setting.PreferenceScreenable
+import com.digimeta.utils.setting.PreferenceScreenable
 
 class PreferenceScreen (private val preferenceScreen: PreferenceScreen) : PreferenceScreenable {
     private val TAG: String = javaClass.simpleName

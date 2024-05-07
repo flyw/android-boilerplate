@@ -4,12 +4,12 @@ plugins {
 apply plugin: (rootProject.name != project.name) ? 'com.android.library' : 'com.android.application'
 
 android {
-    namespace 'com.joydata.boilerplate'
-    if (rootProject.name == project.name) namespace "com.joydata.boilerplate"
+    namespace 'com.digimeta.boilerplate'
+    if (rootProject.name == project.name) namespace "com.digimeta.boilerplate"
     compileSdk 33
 
     defaultConfig {
-        if (rootProject.name == project.name) applicationId "com.joydata.boilerplate"
+        if (rootProject.name == project.name) applicationId "com.digimeta.boilerplate"
         minSdk 25
         targetSdk 33
         versionCode 1
